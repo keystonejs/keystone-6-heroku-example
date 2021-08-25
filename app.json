@@ -1,0 +1,27 @@
+{
+  "name": "Keystone 6 Heroku Example",
+  "description": "A simple example project showing how you might deploy Keystone 6 to Heroku",
+  "repository": "https://github.com/keystonejs/keystone-6-heroku-example",
+  "website": "https://keystonejs.com/",
+  "logo": "https://raw.githubusercontent.com/keystonejs/keystone-6-heroku-example/main/assets/keystone-logo.png",
+  "keywords": ["keystone next", "keystone 6", "keystonejs", "node", "graphql", "cms", "pgsql"],
+  "success_url": "/init",
+  "env": {
+    "SESSION_SECRET": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "options": { "version": "13" }
+    }
+  ]
+}
