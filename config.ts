@@ -6,7 +6,7 @@ export const PORT = parseInt(process.env.PORT) || 3000;
 // The default value here will work if you've installed Postgres on MacOS using brew
 // One the app is deployed to Heroku, this var will be supplied by the Postgres addon
 export const DATABASE_URL =
-  process.env.DATABASE_URL || `postgres://${process.env.USER}@localhost/keystone-6-eg`;
+  process.env.DATABASE_URL || `postgres://${process.env.USER}@localhost/keystone-6-example`;
 
 // Default to 30 days
 export const SESSION_MAX_AGE = parseInt(process.env.SESSION_MAX_AGE) || 60 * 60 * 24 * 30;
