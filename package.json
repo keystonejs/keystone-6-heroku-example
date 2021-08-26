@@ -12,8 +12,8 @@
   },
   "scripts": {
     "dev": "keystone-next dev",
-    "start": "keystone-next prisma migrate deploy && keystone-next start",
-    "build": "keystone-next build"
+    "start": "keystone-next start",
+    "build": "keystone-next build && keystone-next prisma migrate deploy"
   },
   "dependencies": {
     "@keystone-next/auth": "^31.0.0",
