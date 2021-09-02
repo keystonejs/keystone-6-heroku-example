@@ -1,6 +1,6 @@
 # Keystone 6 on Heroku
 
-A simple example project showing how one might deploy a [KeystoneJS 6](https://keystonejs.com) backend to [Heroku](https://dashboard.heroku.com/).
+A simple example project showing how one might deploy a [KeystoneJS 6](https://keystonejs.com) backend to [Heroku](https://www.heroku.com/).
 
 The app code is based heavily on the
 [`with-auth` example project](https://github.com/keystonejs/keystone/tree/master/examples/with-auth) from the main
@@ -14,7 +14,7 @@ There's [documentation](https://keystonejs.com/docs) covering all the
 [field types](https://keystonejs.com/docs/apis/fields) used in this project, as well as
 [guides](https://keystonejs.com/docs/guides) to take you further.
 
-If you get stuck, hit us up on the [KeystoneJS Slack](https://keystonejs.slack.com) and search (or post) under the
+If you get stuck, hit us up on the [KeystoneJS Slack](https://community.keystonejs.com/) and search (or post) under the
 [`[keystonejs]` tag](https://stackoverflow.com/questions/tagged/keystonejs) on Stack Overflow.
 
 ## How to Use This Repo
