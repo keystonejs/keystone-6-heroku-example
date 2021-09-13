@@ -3,6 +3,8 @@
 A simple example project showing how one might develop and deploy a [KeystoneJS 6](https://keystonejs.com)
 backend to [Heroku](https://www.heroku.com/).
 
+![keystone-heroku](https://user-images.githubusercontent.com/6447754/133150736-0dde61be-516b-48b1-9b95-11150b9d22e4.png)
+
 The app code in this project is based heavily on the
 [`with-auth` example project](https://github.com/keystonejs/keystone/tree/master/examples/with-auth) from the main
 [Keystone repo](https://github.com/keystonejs/keystone).
